@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Info
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>ALIVE - A premium portfolio web template by Designova</title>
+    <meta name="description" content="ALIVE - A premium web template from Designova">
+    <meta name="author" content="Designova">
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600%7CMontserrat:400,700%7COpen+Sans:400,300,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- ICON FONTS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="stylesheets/ionicons.min.css">
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="stylesheets/bootstrap.css">
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="stylesheet" href="stylesheets/main-bg.css">
+    <link rel="stylesheet" href="stylesheets/main-responsive.css">
+
+    <!-- LESS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- <link rel="stylesheet/less" type="text/css" href="less/color.less">
+    <link rel="stylesheet/less" type="text/css" href="less/fonts.less">
+    <script src="less/less.min.js"></script>-->
+
+
+</head>
+
+<body>
+
+
+    <!-- Preloader
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div id="preloader">
+        <div id="status"></div>
+    </div>
+    <!-- end : preloader -->
+
+
+    <!-- Header
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <header class="masthead fullheight text-center white-bg">
+      <div class="menu-trigger-wrap">
+        <a class="menu-trigger font3" href="#">Menu<span class="ion-navicon black"></span></a>
+      </div>
+      <img alt="" title="" class="main-logo" src="images/logo.png"/>
+    </header>
+    <!-- end : masthead -->
+
+
+    <!-- Navigation
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <nav class="mastnav fullwidth text-left white-bg">
+      <img alt="" title="" class="nav-logo" src="images/logo.png"/>
+        <nav id="main_nav">
+                <ul>
+                  <li>
+                    <a href="index.html">home</a>
+                  </li>
+                  <li>
+                    <a href="works.html">works</a>
+                  </li>
+                  <li>
+                    <a href="about.html">about</a>
+                  </li>
+                  <li>
+                    <a href="news.html">news</a>
+                  </li>
+                  <li>
+                    <a href="contact.html">hello</a>
+                  </li>
+                  <li>
+                    <a href="">extras</a>
+                    <ul>
+                      <li><a href="project.html">project</a></li>
+                      <li><a href="post.html">news post</a></li>
+                      <li><a href="error404.html">error page</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+    </nav>
+    <!-- end : mastnav -->
+
+
+    <!-- MASTER CONTENT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <section class="mastwrap">
+        <section class="about page-section">
+          <div class="container">
+              <div class="row">
+                  <article class="col-md-10 no-pad">
+                    <h1 class="super-heading font3 grey">Alive</h1>
+                    <h3 class="main-heading font3 dark"><span class="font2 dark">Box 23, Berlin, DE</span></h3>
+                    <h3 class="main-heading font3 dark"><a href="#">hello@ali.ve</a></h3>
+                    <div class="liner color-bg "></div>
+                  </article>
+              </div>
+              <div class="row add-top-half">
+                  <article class="col-md-12 no-pad">
+                    <div id="map" class="fullheight"></div>
+                  </article>
+              </div>
+              <div class="row add-top-half">
+                  <article class="col-md-12 no-pad">
+                    
+                    <div class="form-wrapper">
+                   <div id="contact-form-wrap">
+                  <div class="contact-item pad-common ">
+                    <div class="alert alert-error error color-bg " id="fname">
+                      <p class="dark">Name must not be empty</p>
+                    </div>
+                    <div class="alert alert-error  error color-bg" id="fmail">
+                      <p class="dark">Please provide a valid email</p>
+                    </div>
+                     <div class="alert alert-error  error color-bg" id="fmsg">
+                       <p class="dark">Message should not be empty</p>
+                     </div>
+                      <form name="myform" id="contactForm" action="sendcontact.php" enctype="multipart/form-data" method="post"> 
+                        <article>
+                          <input type="text" placeholder="Your Name" id="name" name="name" size="100" class="border-form font2">
+                        </article>
+                        <article>
+                           <input type="text" placeholder="Valid email ID" name="email" id="email" size="30" class="border-form font2">
+                         </article>
+                         <article>
+                          <textarea placeholder="Your Message" name="message" cols="40" rows="8" id="msg" class="border-form font2"></textarea>
+                          <div class="add-top-quarter  text-left">
+                            <button class="btn btn-alive btn-alive-dark" id="submit" name="submit" type="submit">Send Message</button>
+                          </div>
+                        </article>
+                     </form>
+                  </div>
+            </div>
+
+                </div>
+                <!-- form-wrapper:ends -->
+
+
+
+                  </article>
+              </div>
+          </div>
+        </section>
+    </section>
+    <!-- end : mastwrap -->
+
+
+    <!-- FOOTER
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <footer class="mastfoot">
+          <ul class="foot-social col-md-6 text-right">
+            <li><a href="#"><img data-no-retina alt="" title="" src="images/social/01.svg"/></a></li>
+            <li><a href="#"><img data-no-retina alt="" title="" src="images/social/02.svg"/></a></li>
+            <li><a href="#"><img data-no-retina alt="" title="" src="images/social/03.svg"/></a></li>
+            <li><a href="#"><img data-no-retina alt="" title="" src="images/social/04.svg"/></a></li>
+          </ul>
+        <div class="credits">
+          <p class="font2 dark">Copyright &copy; 2015 <a target="_blank" href="http://www.designova.net">Designova</a></p>
+        </div>
+    </footer>
+    <!-- end : mastfoot -->
+
+
+    <!-- End Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <!-- JS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="javascripts/libs/common.js"></script>
+    <script src="javascripts/libs/bootstrap.min.js"></script>
+    <script src="javascripts/custom/main.js"></script>
+    <script src="javascripts/custom/form-validation.js" ></script> 
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript">
+            // When the window has finished loading create our google map below
+            google.maps.event.addDomListener(window, 'load', init);
+        
+            function init() {
+                // Basic options for a simple Google Map
+                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+                var mapOptions = {
+                    // How zoomed in you want the map to start at (always required)
+                    zoom: 11,
+
+                    // The latitude and longitude to center the map (always required)
+                    center: new google.maps.LatLng(40.6700, -73.9400), // New York
+
+                    // How you would like to style the map. 
+                    // This is where you would paste any style found on Snazzy Maps.
+                    styles: [{"featureType":"all","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"all","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"administrative","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"administrative.country","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.country","elementType":"geometry","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.country","elementType":"labels.text","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.province","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"administrative.locality","elementType":"all","stylers":[{"visibility":"simplified"},{"saturation":"-100"},{"lightness":"30"}]},{"featureType":"administrative.neighborhood","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"administrative.land_parcel","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"all","stylers":[{"visibility":"simplified"},{"gamma":"0.00"},{"lightness":"74"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"landscape","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"landscape.man_made","elementType":"all","stylers":[{"lightness":"3"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#424242"},{"lightness":"-61"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#2a2727"},{"lightness":"-61"},{"saturation":"-100"}]},{"featureType":"transit","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels.text","stylers":[{"visibility":"off"}]}]
+                };
+
+                // Get the HTML DOM element that will contain your map 
+                // We are using a div with id="map" seen below in the <body>
+                var mapElement = document.getElementById('map');
+
+                // Create the Google Map using our element and options defined above
+                var map = new google.maps.Map(mapElement, mapOptions);
+
+                // Let's also add a marker while we're at it
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(40.6700, -73.9400),
+                    map: map,
+                    title: 'Snazzy!'
+                });
+            }
+        </script>
+</body>
+
+</html>
